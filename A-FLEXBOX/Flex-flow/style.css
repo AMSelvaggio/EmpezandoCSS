@@ -1,0 +1,108 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.teoriaflex {
+    max-width: 1200px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(226, 189, 43);
+}
+
+.estructura {
+    font-weight: 700;
+    background-color: rgb(226, 189, 43);
+}
+
+.mainExample {
+    background-color: rgb(226, 189, 43);
+}
+
+.list {
+    font-weight: bold;
+    background-color: rgb(226, 189, 43);
+}
+
+/* Ejemplos en una fila */
+.ejemplorow {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .ejemplorow .ej {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  /* Ejemplos en una fila en orden inverso */
+  .ejemplorowreverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .ejemplorowreverse p {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  /* Ejemplos en una columna */
+  .ejemplocolumn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ejemplocolumn p {
+    flex: 1;
+    margin-bottom: 10px;
+  }
+  
+  /* Ejemplos en una columna en orden inverso */
+  .ejemplocolumnreverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .ejemplocolumnreverse p {
+    flex: 1;
+    margin-top: 10px;
+  }
+  
+  /* Ejemplos en una fila sin envolver */
+  .ejemplonowrap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .ejemplonowrap p {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  /* Ejemplos en una fila envueltos */
+  .ejemplowrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .ejemplowrap p {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Ejemplos en una fila envueltos en orden inverso */
+  .ejemplowrapreverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .ejemplowrapreverse p {
+    flex: 1;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+

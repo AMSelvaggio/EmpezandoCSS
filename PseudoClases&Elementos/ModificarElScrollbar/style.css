@@ -1,0 +1,21 @@
+body::-webkit-scrollbar {    /* barra scroll general */
+
+    background-color: blue;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {  /* parte mobil del scroll */
+
+    background-color: #f90;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {  /* a un pseudoelemento le puedes aplicar psuedoclase */
+
+   background-color: #f05;
+}
+
+
+p{
+    font-size: 32px;
+}

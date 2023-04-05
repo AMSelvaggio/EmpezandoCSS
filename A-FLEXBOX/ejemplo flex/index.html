@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>ejemplo flex</title>
+</head>
+
+<body>
+    <section class="teoria">
+
+        <div class="teoria_flex">
+
+            <header>
+
+                <h1>TEORIA FLEX 1 1 auto</h1>
+
+            </header>
+
+            <p>
+                "flex 1 1 auto" es una propiedad de CSS que se utiliza para controlar el comportamiento de un elemento
+                en un
+                contenedor flexible
+            </p>
+
+            <main>
+
+                <p class="propiedades">Aquí está lo que significa cada parte de esta propiedad:
+
+
+                    <li class="lista"> "flex" es una abreviatura de las tres propiedades flexibles de CSS: "flex-grow",
+                        "flex-shrink" y
+                        "flex-basis".</li>
+
+
+                    <li class="lista"> "1" se refiere a la propiedad "flex-grow", que controla cuánto espacio adicional
+                        puede ocupar un elemento en un contenedor flexible. Un valor de "1" significa que el
+                        elemento puede crecer para ocupar cualquier espacio adicional disponible.</li>
+
+
+                    <li class="lista">
+
+                        "1" también se refiere a la propiedad "flex-shrink", que controla cuánto se puede
+                        reducir un elemento en
+                        tamaño si el contenedor es demasiado pequeño para contener todos los elementos. Un valor de "1"
+                        significa que el elemento puede reducir su tamaño en la misma proporción que los otros elementos
+                        en
+                        el contenedor.
+                        "auto" se refiere a la propiedad "flex-basis", que define el tamaño inicial del elemento antes
+                        de
+                        que el
+                        contenedor flexible comience a distribuir el espacio disponible. Un valor de "auto" significa
+                        que el
+                        tamaño
+                        inicial se basará en el tamaño intrínseco del elemento.
+                    </li>
+
+                    <li class="lista"> En resumen, "flex 1 1 auto" significa que el elemento puede crecer y reducir su
+                        tamaño en igual
+                        proporción
+                        que
+                        los demás elementos en el contenedor flexible y que su tamaño inicial se basará en su tamaño
+                        intrínseco.
+                    </li>
+                </p>
+
+                <div class="ejemplos">
+                    <h1>
+                        EJEMPLOS
+                    </h1>
+                </div>
+                <h2>
+                    flex-grow ( al hacer mas grande o mas pequeña la pantalla el espacio de los cuadros se adapta)
+
+                </h2>
+
+                <div class="flex-grow">
+
+
+                    <div style="flex-grow: 0;">1</div>
+                    <div style="flex-grow: 2;">2</div>
+                    <div style="flex-grow: 3;">3</div>
+
+
+                </div>
+
+                <h2>flex-shrink (al hacer grande o pequeña la pantalla los cuadros se agrandan mas o menos pero no
+                    como la pantalla, es una manera de repartir el espacio entre elementos) </h2>
+
+                <div class="flex-shrink">
+
+                    <div style="flex-shrink: 3;">1</div>
+                    <div style="flex-shrink: 5;">2</div>
+                    <div style="flex-shrink: 2;">3</div>
+                    <div style="flex-shrink: 7;">4</div>
+                    <div style="flex-shrink: 5;">5</div>
+                    <div style="flex-shrink: 8;">6</div>
+                    <div style="flex-shrink: 6;">7</div>
+                    <div style="flex-shrink: 5;">8</div>
+                    <div style="flex-shrink: 3;">9</div>
+                    <div style="flex-shrink: 1;">10</div>
+                </div>
+
+                <h2>flex-basis(los cuadros se mueven con la pantalla hasta llegar a los pixeles asignados en html, entonces ya no se agrandan mas)</h2>
+
+                <div class="flex-basis">
+
+                    <div style="flex-basis: 100px;">1</div>
+                    <div style="flex-basis: 200px;">2</div>
+                    <div style="flex-basis: 300px;">3</div>
+                </div>
+
+
+
+    </section>
+
+    </main>
+
+    </div>
+</body>
+
+</html>

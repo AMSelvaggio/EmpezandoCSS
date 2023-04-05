@@ -1,0 +1,18 @@
+.teoria{
+
+width: 100vw;
+height: 100vh;    
+background-image: url('./img/one-piece-1.jpg'); /* se pone entre comillas '' */
+color: #0f9;
+background-size: cover;  /* hace que la imagen se exapanda hasta ocupar el 100% del espacio */
+
+background-repeat: no-repeat;/* la imagen no se repetira */
+
+/* background-size: 100% 90% el primero ealtura el segundo anchura en tanto por ciento */
+
+background-attachment: fixed; /* deja la imagen fija */
+
+}
+
+
+

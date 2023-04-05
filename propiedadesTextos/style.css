@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none; /* para eliminar formatos hechos de antemano */
+    
+}
+
+.title{
+width: 100vw;
+height: 500px;
+border: 2px solid #f00;
+}
+h1{
+    font-size: 80px;
+    font-family: "Cambria", Cochin, Georgia, Times, 'Times New Roman', serif; /* las primeras tienen preferencia */
+font-weight: 100px;/* grosor de las letras */
+line-height: 500px ; /* determina la altira a la que estara le texto la altura es de 500 si esta a 500 saldra a la mitad */
+text-align: center;
+text-decoration: underline; /* tiene diferentes opciones decorativas */
+user-select: none; /* esto es para que no pueda seleccionarlo con el raton. tiene mas funciones */
+}
+
+h1:hover{
+
+background-color: #f00;
+
+
+}
+
+
+
+p{
+
+font-family: Cambria, Cochin, "Georgia", Times, 'Times New Roman', serif;
+
+text-align:end; /* tiene varias opciones */
+
+color: #8a2be2; /* le da color a las letras */
+
+
+}
+p::selection{
+    background-color: #f0f;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+.par{
+
+    width: 50vw;
+    height: 400px;
+    border:2px solid  #8a2be2;
+
+    overflow: hidden; /* no deja que lo que hay en ele elmento hijo sobresalga del elemento padre */
+}
+
+.par2{
+
+
+width: 50vw;
+    height: 400px;
+    border:2px solid  #1132c6;
+
+    overflow: scroll;
+    
+}

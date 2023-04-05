@@ -1,0 +1,318 @@
+.container {
+    background-color: aqua;
+    max-width: 1200px;
+}
+
+.teoria {
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.section {
+
+    display: block;
+    background-color: yellow;
+    width: 400px;
+}
+
+.ej1 {
+    background-color: bisque;
+}
+
+.ej2 {
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+.section2 {
+    
+    width: 1000px;
+    height: 500px;
+    background-color: green;
+    border: 5px solid black;
+}
+
+.ej11a {
+display: inline;
+    background-color: rgb(15, 227, 156);
+    width: 100px;
+    height: 100px;
+
+}
+
+.ej22 {
+display: inline;
+    background-color: rgb(28, 214, 127);
+    width: 100px;
+    height: 100px;
+
+}
+ .ej22aa{                /* esta clase esta dentro de un parrafo en la section 2 ej22. PAra que tenga efecto hay que aplicarlo directamente a la etiqueta */
+    display: inline;   /* a a las h se les ha de aplicar directamente */
+ }
+
+
+
+
+
+.section3 {
+
+    display: inline-block;
+    background-color: orange;
+     width: 200px;
+    height: 50px; 
+
+}
+
+.ej111 {
+
+
+    background-color: azure;
+    padding: 20px;
+}
+
+.ej222 {
+
+    background-color: beige;
+    margin: 10px;
+}
+
+
+.section4 {
+    background-color: blueviolet;
+}
+
+.ej1111 {
+
+    display: none;
+}
+
+.ej2222 {
+
+    background-color: bisque;
+}
+
+.teoria2 {
+
+    background-color: beige;
+}
+
+.section5 {
+    background-color: rgb(49, 135, 211);
+    display: flex;
+    flex-direction: column;
+}
+
+.eg {
+    background-color: rgb(10, 235, 160);
+}
+
+.section6 {
+
+    background-color: rgb(223, 98, 20);
+    display: flex;
+    flex-direction: row;
+}
+
+.eg1 {
+
+    background-color: rgb(255, 60, 0);
+}
+
+.section7 {
+
+    background-color: rgb(49, 135, 211);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.eg2 {
+    background-color: rgb(10, 235, 160);
+}
+
+
+.section8 {
+
+    background-color: rgb(109, 201, 84);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.eg3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(230, 195, 20);
+}
+
+.section9 {
+
+    background-color: rgb(191, 53, 55);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eg4 {
+    width: 100px;
+    height: 100px;
+}
+
+.section10 {
+    background-color: rgb(230, 195, 20);
+    display: flex;
+    justify-content: center;
+}
+
+.eg5 {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.section11 {
+
+    background-color: rgb(49, 104, 176);
+    display: flex;
+    justify-content: space-between;
+}
+
+.eg6 {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.section12 {
+
+    background-color: rgb(165, 218, 19);
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.eg7 {
+
+    width: 100px;
+    height: 100px;
+
+
+}
+
+
+.section13 {
+    width: 1000px;
+    height: 500px;
+
+    background-color: darkgray;
+    display: flex;
+    align-items: start;
+}
+
+.eg8 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.section14 {
+    background-color: rgb(46, 132, 132);
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.eg9 {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+
+.section15 {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+}
+
+.eg10 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.egx {
+    background-color: blueviolet;
+}
+
+.section16 {
+
+    background-color: cornsilk;
+    display: flex;
+    align-items: stretch;
+    width: 1000px;
+    height: 500px;
+}
+
+.eg11 {
+
+    background-color: rgb(193, 17, 193);
+
+}
+
+.section17 {
+
+    background-color: bisque;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.eg12 {
+
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+}
+
+.section13 {
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eg13 {
+
+    background-color: rgb(14, 188, 188);
+    width: 100px;
+    height: 100px;
+
+}
+
+.section19 {
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.eg14 {
+    background-color: chartreuse;
+}
+
+.teoria3 {
+
+    background-color: antiquewhite;
+}

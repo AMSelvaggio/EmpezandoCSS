@@ -1,0 +1,22 @@
+.teoria{
+
+    font-size: 20px;
+}
+
+
+
+.parrafos{
+    width: 40%;
+}
+
+.parrafo1{
+
+    float: left;
+    margin-left: 100px;
+}
+
+.parrafo2{
+
+    float: right;
+    margin-right: 100px;
+}

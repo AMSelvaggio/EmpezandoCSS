@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Flow.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2 class="mainExample">Teoria Flex-Flow.</h2>
+    <div class="teoriaflex">
+        <p class="estructura">Estructura css:
+            flex-flow{
+            propiedad: valor
+            }</p>
+        <p class="mainExample">El flex-flow en CSS es una propiedad que combina las propiedades flex-direction y
+            flex-wrap en una sola
+            declaración. flex-direction establece la dirección del flujo de los elementos en un contenedor flex,
+            mientras que flex-wrap especifica si los elementos deben envolverse o no cuando el espacio en el contenedor
+            flex es insuficiente. <br><br>
+
+            La sintaxis de flex-flow es la siguiente: <br><br>
+
+            CSS
+            Copy code
+            flex-flow: < flex-direction>
+                < flex-wrap>; <br><br>
+                    Donde < flex-direction> especifica la dirección del flujo de elementos en el contenedor flex y puede
+                        ser uno de los siguientes valores: <br>
+
+                        <li class="list">row: los elementos se colocan en una fila, de izquierda a derecha.</li>
+                        <li class="list">row-reverse: los elementos se colocan en una fila, de derecha a izquierda.</li>
+                        <li class="list">column: los elementos se colocan en una columna, de arriba a abajo. </li>
+                        <li class="list">column-reverse: los elementos se colocan en una columna, de abajo a arriba.
+                        </li> <br>
+
+                        Por otro lado, < flex-wrap> especifica si los elementos deben envolverse o no cuando el espacio
+                            en el contenedor flex es insuficiente. <br><br>
+                            Puede tener los siguientes valores: <br><br>
+
+                            <li class="list">nowrap: los elementos no se envuelven y se ajustan en una sola línea.</li>
+                            <li class="list">wrap: los elementos se envuelven y se muestran en varias líneas según sea
+                                necesario.</li>
+                            <li class="list">wrap-reverse: los elementos se envuelven y se muestran en varias líneas,
+                                pero en orden
+                                inverso.</li>
+    </div>
+    </p>
+
+    <h2 class="mainExample">Ejemplos</h2>
+
+      <!-- Ejemplos en una fila -->
+<div class="ejemplorow">
+    <p class="ej">Ejemplo 1</p>
+    <p class="ej">Ejemplo 2</p>
+    <p class="ej">Ejemplo 3</p>
+  </div>
+  
+  <!-- Ejemplos en una fila en orden inverso -->
+  <div class="ejemplorowreverse">
+    <p>Ejemplo 1</p>
+    <p>Ejemplo 2</p>
+    <p>Ejemplo 3</p>
+  </div>
+  
+  <!-- Ejemplos en una columna -->
+  <div class="ejemplocolumn">
+    <p>Ejemplo 1</p>
+    <p>Ejemplo 2</p>
+    <p>Ejemplo 3</p>
+  </div>
+  
+  <!-- Ejemplos en una columna en orden inverso -->
+  <div class="ejemplocolumnreverse">
+    <p>Ejemplo 1</p>
+    <p>Ejemplo 2</p>
+    <p>Ejemplo 3</p>
+  </div>
+  
+  <!-- Ejemplos en una fila sin envolver -->
+  <div class="ejemplonowrap">
+    <p>Ejemplo 1nowrpap</p>
+    <p>Ejemplo 2</p>
+    <p>Ejemplo 3</p>
+  </div>
+  
+  <!-- Ejemplos en una fila envueltos -->
+  <div class="ejemplowrap">
+    <p>Ejemplo 1wrap</p>
+    <p>Ejemplo 2 </p>
+    <p>Ejemplo 3</p>
+  </div>
+  
+  <!-- Ejemplos en una fila envueltos en orden inverso -->
+  <div class="ejemplowrapreverse">
+    <p>Ejemplo 1</p>
+    <p>Ejemplo 2</p>
+    <p>Ejemplo 3</p>
+  </div>
+  
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.teoria{
+    background-color: antiquewhite;
+}
+
+
+.ej1{
+
+    width: 300px;
+    height: 300px;
+    background-color: #F00;
+    transition: all 2s; /* afecta a hover y active.
+     all afecta a todas las propiedades. se puede especificar 
+     ej: background-color 2segundos  y tardara en aplicarlo 2 segundos 
+     propierty- duration- timing funtion-delay*/
+}
+
+
+
+/* ahora que ej1 tiene una posicion específica */
+
+.ej1:hover {  /* puedes añadir margin y padding */
+
+    background-color: aqua;
+    color: #F00;
+    font-size: 30px;
+}
+
+.ej1:active {
+    background-color: #0f0;
+}
+
+.teoria2{
+    display: none;
+}
+
+input{
+    padding: 1em;
+    width: 50vw;
+    margin: 2em;
+    background-color: #0f0;
+    border: none;
+    border-bottom: 2px solid #f00 ;
+}
+
+input:focus{
+    background-color: aquamarine;
+    border-bottom: 4px solid #00f;
+}
+
+a {
+font-size: 30px;
+text-decoration: none;
+}
+
+a:link {
+
+    color: #0f0;
+}
+
+a:visited {
+    color: rgb(197, 16, 213);
+}
+
+
+/* pseudo elementos */
+
+
+.p2::first-letter{
+    color: #f00;
+
+}
+
+.p2::first-line {
+    font-size: 50px;
+}
+
+span {
+
+    color: #0a0;
+
+}
+
+.p2::selection {
+    background-color: #000;
+    color: #f8f;
+}
+
+
+.teoria4 {
+    display: none;
+}

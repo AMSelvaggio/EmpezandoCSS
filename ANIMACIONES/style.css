@@ -1,0 +1,149 @@
+
+
+.div1{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+   /*  transition: all 2s; */
+   animation: animacion-dante 10s
+}
+
+
+@keyframes animacion-dante{
+
+0%{
+    background-color: #F00;
+   
+}
+
+100%{
+    background-color: blue;
+    
+}
+
+}
+
+
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+   /*  transition: all 2s; */
+   animation: animacion-dantee 5s infinite alternate-reverse linear  /* animation-dante es el nombre de la animacion
+   que luego se pone en el key frame. los segudnos es lo que tarda la 
+   animacion en ejecutarse d eprinciio a fin.
+   infinite es que se ejecuta infinitamente.
+   alternate-reverse es que se  indica que la animación se reproducirá en 
+   orden inverso cada vez que se ejecute.
+
+Por ejemplo, si tienes una animación que hace que un elemento 
+se mueva de izquierda a derecha, con "alternate-reverse" establecido,
+ la animación se ejecutará de izquierda a derecha la primera vez,
+  y luego se reproducirá en orden inverso, de derecha a izquierda,
+   la siguiente vez. Este patrón se repetirá en cada ciclo de animación. 
+   "linear" es un valor de la propiedad "animation-timing-function" en CSS que se utiliza para definir la velocidad de una animación.
+
+Cuando se establece la propiedad "animation-timing-function" en "linear", 
+la animación se ejecutará a una velocidad constante, 
+sin acelerar ni desacelerar en ningún momento.
+ Es decir, el movimiento del objeto animado será uniforme 
+ y sin cambios en la velocidad.*/
+
+}
+
+
+@keyframes animacion-dantee{
+
+0%{
+    background-color: #F00;
+    margin-left: 0;
+    
+}
+
+100%{
+    background-color: blue;
+    margin-left: 500px;
+}
+
+
+}
+
+
+
+.div3{
+   
+    background-color: blueviolet;
+      animation: animacion-danteee 10s infinite alternate-reverse linear  
+}
+
+
+@keyframes animacion-danteee{
+
+0%{
+    background-color: #F00;
+    margin-left: 0;
+
+    width: 300px;
+    height: 300px;
+}
+
+50%{
+
+background-color: #0f0;
+
+
+
+}
+
+
+100%{
+    background-color: blue;
+    margin-left: 500px;
+    border-radius: 500px; 
+    width: 100px;
+    height: 100px;
+}
+
+
+}
+
+
+.div4{
+      animation: animacion-danta 8s infinite alternate-reverse linear 
+      
+    /* animation-name: animacion-danta
+    animation-duration: 8s
+    animation-iteration-count: infinite
+    animation-direction:alternate-reverse
+     */
+}
+
+
+@keyframes animacion-danta{
+from{
+
+    background-color: #F00;
+    margin-left: 0;
+
+    width: 300px;
+    height: 300px;
+}
+
+to{
+
+width: 600px;
+    height: 600px;
+    margin-left: 50%;
+    background-color: #0f0;
+}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+*{
+
+    margin: 0px;
+    padding:0px;
+}
+
+.cajas{
+
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 300px;
+}
+
+.caja1{
+    background-color: #f00;
+    position: static; /* "no hace nada", es el valor por defecto. 
+    No añade propiedades extra (top, left, right,buttom, z-index) */
+
+}
+
+
+.caja2{
+    background-color: rgb(20, 210, 84);
+    position: relative; /* Valor por defecto + añade las propiedades */
+    
+    left: 100px;
+}
+
+
+.caja3{
+    background-color: rgb(8, 252, 227);
+    position: absolute;/*  es como si el hueco donde estuviera el elemento ya no existiera. Pierde la 
+    posicion que tenia*/
+}
+
+
+.caja4{
+    background-color: rgb(180, 9, 202);
+    z-index: 50; /* cuanto mayor sea el numero más pasaras por encima de los demas elementos */
+
+}
+
+
+.caja5{
+    background-color: rgb(192, 243, 8);
+    position: fixed; /* suele usarse en menus de arriba de una pagina web
+     */
+}
+
+.padre{
+margin: 50px;
+    width: 300px;
+    height: 2000px;
+    border: 1px solid #f00
+}
+
+.caja6{
+    background-color: rgb(142, 24, 101);
+
+    position: sticky; /* mezcla enter fixed y absolut */
+    top: 20px;
+}

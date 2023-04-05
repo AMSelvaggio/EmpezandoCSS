@@ -1,0 +1,29 @@
+.container {
+max-width: 1200px;
+    background-color: rgb(236, 138, 138);
+    margin: 10px 10px 10px 10px;
+}
+
+.teoria {
+background-color: rgb(129, 195, 253);
+
+}
+
+.section{
+    display: flex;
+    flex-flow: row;
+background-color: aqua;
+margin: 50px 0px 50px 0px;
+}
+
+
+.ej1 {
+background-color: #9b5757 ;
+    margin: 0px 40px 0px 40px;
+
+}
+
+.ej2 {
+    background-color: #eb0b0b;
+    margin: 50px 50px 50px 50px ;
+}

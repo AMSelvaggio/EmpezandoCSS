@@ -1,0 +1,66 @@
+.container {
+
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+}
+
+.teoria {
+    background-color: beige;
+    margin: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section {
+display: flex;
+flex-flow: row;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+
+.ej1 {
+    border-width: 40px;
+  border-style: solid;
+  border-color:blue;
+    background-color: brown;
+    
+   
+    box-sizing: border-box;
+
+}
+
+.ej2 {
+    border-width: 40px;
+  border-style: solid;
+    background-color: blueviolet;
+    box-sizing: content-box;
+}
+
+.section2{
+
+background-color: coral;
+display: flex;
+flex-flow: row;
+}
+
+.box {
+    background-color: rgb(162, 211, 114);
+    width: 200px;
+    height: 100px;
+    border: 5px solid rgb(177, 67, 67);
+    padding: 10px;
+    box-sizing: content-box;
+  }
+
+  .box2 {
+    background-color: rgb(225, 113, 136);
+    width: 200px;
+    height: 100px;
+    border: 5px solid rgb(19, 202, 211);
+    padding: 10px;
+    box-sizing: border-box;
+  }

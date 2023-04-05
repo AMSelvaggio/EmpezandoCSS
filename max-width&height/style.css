@@ -1,0 +1,23 @@
+.container{
+background-color: aqua;
+max-width: 900px;
+max-height: 900px;
+}
+
+.teoria{
+
+    background-color: antiquewhite;
+}
+
+
+.section{
+background-color: darksalmon;
+max-width: 1200px;
+max-height: 1200px;
+}
+
+#re{
+background-color: rgb(230, 157, 193);
+
+
+}

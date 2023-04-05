@@ -1,0 +1,41 @@
+.container{
+background-color: azure;
+    max-width: 1200px;
+}
+
+
+.teoria{
+
+    background-color: antiquewhite;
+}
+
+.teoria2{
+background-color: antiquewhite;
+}
+    
+
+
+.section{
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.art{
+background-color: cyan;
+margin:10px;
+flex: 1 1 40%;
+
+}
+
+.artt{
+background-color: coral;
+flex : 2 1 40%;  /* se ve en ele resultado final que prevalece el 40$ mas que el 2. Si se pone el % de todos en auto prevalece el dos*/
+
+}
+
+.Nav{
+
+    background-color: darkkhaki;
+    flex : 1 1 100%;
+}

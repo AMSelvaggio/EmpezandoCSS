@@ -1,0 +1,25 @@
+.teoria{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+#ej1{
+font-size:20px;
+font-family:'Alkatra', cursive ;
+}
+
+@font-face{
+    font-family: "montserrat1"; /* nombre qeu se le da a la familia */
+    src: url('./fonts/Montserrat-BlackItalic.ttf') ;/* url entre comillas '' */
+font-display: swap; /* display le dice al navegador como queire que trate nuestra fuentte
+swap pone otra por defecto antes que la elegida mientras se carga. block: solo sale la fuente si se carga la fuente */
+}
+
+/* esto carga la fuente en el programa y deja ser utilizada */
+ 
+#ej2{
+
+    font-size: 20px;
+    font-family:  'montserrat1', sans-serif; 
+    /* con mostserrat1 se carga Montserrat-BLackItalic */
+}

@@ -1,0 +1,33 @@
+.container{
+max-width: 1200px;
+background-color: black;
+margin: 20px;
+
+}
+
+.teoria{
+background-color:antiquewhite;
+margin: 20px;
+padding: 40px;
+}
+
+.section{
+border: 5px;
+background-color: azure;
+margin: 20px;
+padding: 20px;
+}
+
+
+.ej1{
+background-color: bisque;
+padding: 20px 40px 20px 40px;
+
+}
+
+.ej2{
+
+    background-color: aquamarine;
+    padding: 40px 20px 40px 20px;
+}
+
