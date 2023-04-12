@@ -1,0 +1,122 @@
+.gridContainer {
+background-color: #777;
+
+    display: grid;
+
+    width: 100vw;
+    height: 50vh;
+
+    grid-template-columns: 50px auto 50px;  /* auto rellena el espacio, si lo especificas ocupara ese espeacio */
+    grid-template-rows: auto 60px auto;  /* si no hay "div" rellenara el espacio el grid container. En verdadad
+    este tercer auto no deberia estar solo es de ejemplo'. Se han de poner tantos como lineas o columnas se queiran */
+/* 
+justify-content: center ;   Coloca los items al margen izquierdo, derecho o centro. */
+/* 
+align-items: ;
+align-content: ;  centran los items. Es mas corercto usar content*/
+/* 
+ grid-gap: 20px ;  este marcara la distancia entre items*/
+}
+
+.grid-hijos {
+
+    background-color: red;
+
+    text-align: center;
+
+    color: #FFF;
+
+    font-size: 32px;
+
+    border: 2px solid #000;
+}
+
+.hijo1{
+/* 
+    grid-column: 1/2; /*  El tres siboliza el numero de líneas hasta las que llegara y el 1 desde el que empieza */
+/* 
+    grid-row: 1/3; */
+
+
+    grid-area: 1/1/3/3; /*  es la mexzcla de los dos : en orden: fila de inicio, inicio de la columna
+    fin de la fila y el fin de la columna  */
+} 
+
+
+.hijo5{
+
+    grid-column: 3/4;
+    grid-row: 2/4;
+ 
+}
+
+
+
+
+/* --------------EJEMPLO2-------------------------- */
+
+
+
+
+.gridContainer2{
+
+display: grid;
+
+width: 100vw;
+height: 100vh;
+
+background-color: #777;
+
+grid-template-areas: 'header header header' 
+'nav nav nav '
+'aside main aside2'
+'aside main aside2'
+'footer footer footer';
+
+
+/* al estar doble el aside main aside 2 ocupar ael doble de epsacio que los demás */
+
+
+}
+
+.grid-hijos2{
+
+background-color: #f00;
+
+text-align: center;
+
+columns: #fff;
+font-size: 32px;
+
+border: 2px solid #000
+
+}
+
+.hijo7{
+grid-area: header;
+
+}
+
+.hijo8{
+
+grid-area: nav;
+}
+
+.hijo9{
+    grid-area: aside;
+}
+
+.hijo10{
+
+    grid-area:main ;
+}
+
+.hijo11{
+
+    grid-area:aside2;
+}
+
+.hijo12{
+
+    grid-area: footer;
+} 
